@@ -23,36 +23,30 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 4rem 2rem;
+      padding: 5rem 2rem 2rem;
       text-align: center;
     }
 
     .logo {
-      width: 160px;
-      height: 160px;
+      width: 180px;
+      height: 180px;
       border-radius: 50%;
       object-fit: cover;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      margin-bottom: 1rem;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+      margin-bottom: 1.5rem;
     }
 
     .subtitle {
-      font-size: 1.1rem;
-      margin-bottom: 1.5rem;
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
       text-shadow: 1px 1px 2px #000;
-    }
-
-    h1 {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 2.8rem;
-      margin-bottom: 1rem;
-      text-shadow: 1px 1px 2px #000;
+      font-weight: 600;
     }
 
     p {
-      font-size: 1.2rem;
+      font-size: 1.15rem;
       max-width: 700px;
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
       text-shadow: 1px 1px 2px #000;
     }
 
@@ -81,16 +75,16 @@
     }
 
     @media (max-width: 600px) {
-      h1 { font-size: 2rem; }
+      .logo { width: 140px; height: 140px; }
+      .subtitle { font-size: 1rem; }
       p { font-size: 1rem; }
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <img src="ipc-logo.png" //alt="Interplanetary Coin Logo" class="logo" />
+    <img src="ipc-logo.png" alt="Interplanetary Coin Logo" class="logo" />
     <div class="subtitle">The decentralized currency for Earth, Mars, and beyond.</div>
-    <h1>Interplanetary Coin (IPC)</h1>
     <p>Built by a father, for his family—and the future.</p>
   </div>
 
