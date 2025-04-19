@@ -1,131 +1,79 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Interplanetary Coin (IPC)</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter&display=swap" rel="stylesheet" />
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: url('mars-background.jpeg') no-repeat center center fixed;
-      background-size: cover;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interplanetary Coin (IPC)</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0a0a0a;
+            color: white;
+            text-align: center;
+        }
+        .banner {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+        }
+        .main-content {
+            padding: 2rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin: 1rem 0 0.5rem 0;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .button-group {
+            margin-top: 2rem;
+        }
+        .button-group a {
+            display: inline-block;
+            margin: 0.5rem 1rem;
+            padding: 0.75rem 1.5rem;
+            background-color: #1e90ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .button-group a:hover {
+            background-color: #0f78d4;
+        }
 
-    .container {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
-      padding: 8rem 2rem 2rem;
-      text-align: center;
-    }
-
-    .logo {
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 2.5rem;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    }
-
-    .subtitle {
-      font-size: 1.4rem;
-      margin-bottom: 2rem;
-      text-shadow: 1px 1px 2px #000;
-      font-weight: 600;
-    }
-
-    p {
-      font-size: 1.3rem;
-      max-width: 720px;
-      margin-bottom: 3rem;
-      line-height: 1.6;
-      text-shadow: 1px 1px 2px #000;
-    }
-
-    .button-bar {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-      padding: 2.5rem 1rem;
-      background: rgba(0, 0, 0, 0.4);
-    }
-
-    .button {
-      padding: 0.75rem 1.5rem;
-      background: #fff;
-      color: #000;
-      font-weight: bold;
-      text-decoration: none;
-      border-radius: 8px;
-      transition: background 0.3s ease;
-      box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
-    }
-
-    .button:hover {
-      background: #eaeaea;
-    }
-
-    footer {
-      background-color: rgba(0, 0, 0, 0.7);
-      padding: 2rem 1rem;
-      font-size: 0.85rem;
-      color: #ccc;
-      text-align: center;
-      line-height: 1.6;
-    }
-
-    @media (max-width: 600px) {
-      .logo { width: 140px; height: 140px; }
-      .subtitle { font-size: 1.1rem; }
-      p { font-size: 1rem; }
-    }
-  </style>
+        /* Mobile Styles */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1rem;
+                padding: 0 1rem;
+            }
+            .button-group a {
+                display: block;
+                width: 80%;
+                margin: 0.5rem auto;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-   <!-- <img src="ipc-logo.png" alt="Interplanetary Coin Logo" class="logo" /> -->
-    <div class="subtitle">The decentralized currency for Earth, Mars, and beyond.</div>
-     <p></p>
-    <p></p>
-    <p>Built by a father, for his family—and the future.</p>
-  </div>
-     <p></p>
-     <p></p>
-     <p></p>
-     <p></p>
-     <p></p>
-     <p></p>
-     <p></p>
-     <p></p>
-     <p></p>
-
-  <div class="button-bar">
-    <a href="https://etherscan.io/token/0xb63034B995d6305C6237B0856603be2224994FC6" class="button" target="_blank">Etherscan</a>
-    <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x0ccb04d2a8b412b5a43df351ae6c5792b513b007" class="button" target="_blank">DEXTools</a>
-    <a href="Interplanetary_Coin_Whitepaper_v1.pdf" class="button" download>Whitepaper</a>
-  </div>
-     <p></p>
-     <p></p>
-     <p></p>
-  <footer>
-     <p></p>
-     <p></p>
-     <p></p>
-     <p></p>
-     <p></p>
-    <p><strong>Disclaimer:</strong> This website and all associated materials are provided for informational purposes only and do not constitute financial advice, investment solicitation, or legal counsel.</p>
-    <p>Interplanetary Coin (IPC) is a decentralized project. Users are solely responsible for their investment decisions. Always do your own research and consult with a financial advisor.</p>
-    <p>&copy; 2025 Interplanetary Coin. All rights reserved.</p>
-  </footer>
+    <img class="banner" src="ipc_website_banner.png" alt="IPC Banner">
+    <div class="main-content">
+        <h1>Interplanetary Coin (IPC)</h1>
+        <p>Decentralized Currency for Earth, Mars & Beyond.</p>
+        <div class="button-group">
+            <a href="https://www.dextools.io/" target="_blank">DEXTools</a>
+            <a href="https://www.interplanetarycoin.cash/whitepaper.pdf" target="_blank">Whitepaper</a>
+            <a href="https://www.interplanetarycoin.cash/claim" target="_blank">Claim IPC</a>
+        </div>
+    </div>
 </body>
 </html>
